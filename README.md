@@ -15,25 +15,33 @@ We are using https://www.ad.nl/ as the Application Under Test. This App is a **R
 ```bash
 Scenario 1: User launch the site and able to login
 
-Scenario Description: User launch and login into the site and verify user is able to login to the application. This is like a Smoke test.
+Scenario Description: User launch and login into the site and verify user is able to login to the application.
 
-Testname: TC_01_LogInUser.test.js
+Reason for choosing scenario 1 : login feature testing, and verify the user is logged in right - its priority p0 case
+
+Testname: LogInUser.test.js
 ```
  
 ```bash
-Scenario 2: User search a article and verify use is able to see some results
+Scenario 2: Guest user search for an article and verify the information
 
-Scenario Description: User search a article and verify the user can see the matching results
+Scenario Description: User search for an article and verify appropriate message is displayed for searched article, and verify the serached item list is present
 
-Testname: TC_02_SearchForAnArticle.test.js
+Reason for choosing scenario 2 : Case for positive search with verification of searched list 
+considering search is p1 case .Altering test case for search article in testData will make the test case reusable to search any article 
+
+Testname: SearchForAnArticle.test.js
 ```
 
 ```bash
 Scenario: 3: User launch the podcast url and verify user is able to click and see random podcast videos
 
-Scenario Description: User launch podcase url and see user is able to see podcast videos
+Scenario Description: User launch podcase url and see user is able to see podcast videos 
 
-Testname: TC_03_BrowsePodcast.test.js
+Reason for choosing scenario 3 : User opens random Video podcast and verify the page is landed into randomly chosen podcast 
+verify the video plays ,considering it to be p1 case and writing the tets case generically to work for any random podcast .improves the test case usability 
+
+Testname: BrowsePodcast.test.js
 ```
 
 #### Installation

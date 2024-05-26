@@ -7,8 +7,8 @@ Guest user search for an article and verify the information
 Test test.steps:
 1. User navigates to home screen
 2. User clicks on Search Icon
-3. Enter article and search the results
-4. Verify the search article results
+3. Enter article and verify search button is enabled
+4. Verify the searched article results are found and searched article list is present
 */
 
 import test from '../testFixtures/fixture'

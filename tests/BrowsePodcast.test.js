@@ -6,7 +6,8 @@ User opens podcast url and click and verify random podcast video
 
 Test test.steps:
 1. User navigates to podcast screen
-2. User opens random podcase video
+2. User opens random podcast video and verify the page is landed into randomly chosen podcast
+    also verify the video podcast is playable 
 */
 
 import test from '../testFixtures/fixture'

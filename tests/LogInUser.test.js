@@ -2,11 +2,11 @@
 Login as a normal user
 
 Scenario Description: 
-User opens website and login to it and verify user is able to login or not.
+User launch and login into the site and verify user is able to login to the application.
 
 Test test.steps:
 1. User navigates to home screen
-2. User is login and verify the user info
+2. User login and verify the user info
 */
 
 import test from '../testFixtures/fixture'

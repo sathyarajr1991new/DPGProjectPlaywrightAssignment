@@ -1,11 +1,28 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="6.019899000167847">
-<testsuite name="TC_03_BrowsePodcast.test.js" timestamp="2024-05-26T15:35:21.541Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.172" errors="0">
-<testcase name="@smoke: Browse podcast and verify the brodcase screen › Open random prodcast and verify the prodcast information" classname="TC_03_BrowsePodcast.test.js" time="4.172">
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="13.691397000312806">
+<testsuite name="BrowsePodcast.test.js" timestamp="2024-05-26T19:08:57.436Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="7.028" errors="0">
+<testcase name="@smoke: Browse podcast and verify the brodcase screen › Open random prodcast and verify the prodcast information" classname="BrowsePodcast.test.js" time="7.028">
 <system-out>
-<![CDATA[User is Able to click on "Akkoord" button
-Random index: 6
-value: Afl. Willem van Hanegem : 'Ik zou Koopmeiners in de basis zetten'
-Clicked item at index 6
+<![CDATA[User is able to click on "Akkoord" button
+Random index: 7
+value: Afl. Waarom draagmoederschap intens, maar prachtig is: ‘Het was echt hun kindje dat bij mij logeerde’
+Clicked item at index 7
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="LogInUser.test.js" timestamp="2024-05-26T19:08:57.436Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="12.365" errors="0">
+<testcase name="@smoke: Login as a normal user to the application › Login as normal user to the application" classname="LogInUser.test.js" time="12.365">
+<system-out>
+<![CDATA[User is able to click on "Akkoord" button
+Element by attribute value: "Sathyaraj Tester" found.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="SearchForAnArticle.test.js" timestamp="2024-05-26T19:08:57.436Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="7.995" errors="0">
+<testcase name="@smoke: Search an article and verify the results › Search an article and verify the search results" classname="SearchForAnArticle.test.js" time="7.995">
+<system-out>
+<![CDATA[User is able to click on "Akkoord" button
 ]]>
 </system-out>
 </testcase>
