@@ -65,6 +65,11 @@ npx playwright install
 ```
 
 #### Run application
+Important Note :  Chrome browser detects automation execution and blocks the execution with error " Login attempt blocked for security reasons" 
+attaching below screenshot of the issue noticed .Hence I would like to suggest to use Firefox browser 
+attached below the screenshot of the authentication issue on chrome.
+![image](https://github.com/sathyarajr1991new/DPGProjectPlaywrightAssignment/assets/134686219/cf7347b8-695d-448a-a7df-f7a72fa88c26)
+
 
 Run tests in chrome browser
 
