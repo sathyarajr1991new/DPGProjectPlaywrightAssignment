@@ -4,7 +4,7 @@ An example project demonstrating automation of playwright tests using page objec
 
 #### Application Under Test
 
-We are using https://www.saucedemo.com/ as the Application Under Test. This App is a **React.js** Frontend
+We are using https://www.ad.nl/ as the Application Under Test. This App is a **React.js** Frontend
 
 - URL: https://www.ad.nl/ and https://www.ad.nl/podcasts
 - OS : macOS 
@@ -46,7 +46,7 @@ Install the dependencies and devDependencies to run the test.
 Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/sathyarajr1991new/PlaywrightFw.git
 ```
 
 Install dependencies
@@ -107,6 +107,6 @@ Allure-test-report :
 #### GitLab
 
 ```bash
-Repo: https://gitlab.com/j1182/playwright-javascript
-Pipelines: https://gitlab.com/j1182/playwright-javascript/-/pipelines
+Repo: https://github.com/sathyarajr1991new/PlaywrightFw
+Pipelines: 
 ```
