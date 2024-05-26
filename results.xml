@@ -1,0 +1,13 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="6.019899000167847">
+<testsuite name="TC_03_BrowsePodcast.test.js" timestamp="2024-05-26T15:35:21.541Z" hostname="Firefox" tests="1" failures="0" skipped="0" time="4.172" errors="0">
+<testcase name="@smoke: Browse podcast and verify the brodcase screen › Open random prodcast and verify the prodcast information" classname="TC_03_BrowsePodcast.test.js" time="4.172">
+<system-out>
+<![CDATA[User is Able to click on "Akkoord" button
+Random index: 6
+value: Afl. Willem van Hanegem : 'Ik zou Koopmeiners in de basis zetten'
+Clicked item at index 6
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
