@@ -54,7 +54,7 @@ Install the dependencies and devDependencies to run the test.
 Clone the repository
 
 ```bash
-git clone https://github.com/sathyarajr1991new/PlaywrightFw.git
+git clone https://github.com/sathyarajr1991new/DPGProjectPlaywrightAssignment.git
 ```
 
 Install dependencies
@@ -66,25 +66,31 @@ npx playwright install
 
 #### Run application
 
-Run tests in Parallel chrome
+Run tests in chrome browser
 
 ```bash
 npm run test:chrome - For tests only on chrome browser
 ```
 
-Run tests in Parallel firefox
+Run tests in firefox browser
 
 ```bash
 npm run test:firefox - For tests only on firefox browser
 ```
 
-Run tests in Parallel safari
+Run tests in firefox browser by groupname
+
+```bash
+npm run test:smoke - For tests only on firefox browser
+```
+
+Run tests in safari browser
 
 ```bash
 npm run test:safari - For tests only on safari browser
 ```
 
-Run tests in Parallel edge
+Run tests in edge browser
 
 ```bash
 npm run test:edge - For tests only on edge browser
@@ -115,6 +121,5 @@ Allure-test-report :
 #### GitLab
 
 ```bash
-Repo: https://github.com/sathyarajr1991new/PlaywrightFw
-Pipelines: 
+Repo: https://github.com/sathyarajr1991new/DPGProjectPlaywrightAssignment.git
 ```
